@@ -1,0 +1,31 @@
+{
+  "name": "unit-test_pure-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeyerpd/unit-test_pure-functions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeyerpd/unit-test_pure-functions/issues"
+  },
+  "homepage": "https://github.com/alexeyerpd/unit-test_pure-functions#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.2.2",
+    "eslint": "^8.27.0",
+    "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.26.0"
+  }
+}
