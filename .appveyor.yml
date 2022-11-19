@@ -6,5 +6,6 @@ branches:
 gitcache: node_modules  # кеширование
 install:
   - npm install  # команда установки зависимостей
-build: offtest_script:
-  - npm run lint && npm test  # скрипт сборки
+build: 
+  offtest_script:
+    - npm run lint && npm test  # скрипт сборки
